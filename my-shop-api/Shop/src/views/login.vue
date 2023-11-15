@@ -22,13 +22,6 @@
 		</div>
 		<div class="form-field">
 			<div class="form-control justify-between">
-				<div class="flex gap-2">
-					<input type="checkbox" class="checkbox" />
-					<a href="#">Remember me</a>
-				</div>
-				<label class="form-label">
-					<a class="link link-underline-hover link-primary text-sm">Forgot your password?</a>
-				</label>
 			</div>
 		</div>
 		<div class="form-field pt-5">
@@ -38,16 +31,13 @@
 		</div>
 
 		<div class="form-field">
-			<div class="form-control justify-center">
-				<a class="link link-underline-hover link-primary text-sm">Don't have an account yet? Sign up.</a>
-			</div>
 		</div>
 	</div>
 </div>
 </template>
 
 <style scoped>
-@font-face {
+@font-face{
   font-family: "roboto";
   src: url("font/Roboto.eot"), url("font/Roboto.woff2") format("woff2"),
     url("font/Roboto.woff") url("font/Roboto.svg") format("svg"),
