@@ -106,6 +106,9 @@
                 <ul class="wouaf">
                     <id class="police1">
                         <li>Coombes</li>
+                        <article product in getProduct :keys="product.id">
+                          <h1>{{product.id}}</h1>
+                      </article>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
@@ -267,11 +270,7 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import menuBarre from './menuBarre.vue'
-    export default {
-        component : {
-      menuBarre,
-        },
+        export default{
           data(){
               return{
                 message : "Hello wolrd"
