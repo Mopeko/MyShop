@@ -9,13 +9,13 @@
                     <img class="logo" src="../image/logo.png" alt="logo">
                     <menuBarre/>
                     <id class="police2">
-                        <li>HOME </li>
+                      <li class =haut>HOME </li>
                     </id>
                     <id class="police2">
-                        <li>SHOP </li>
+                      <li class =haut>SETTINGS </li>
                     </id>
                     <id class="police2">
-                        <li>MAGAZINE </li>
+                        <RouterLink to ='/profil'><li class =haut>PROFIL </li></RouterLink>
                     </id>
                 </ul>
                 <div id="mySidenav" class="sidenav">
@@ -250,8 +250,8 @@
         <ul class="footer_menu">
 
             <li class="menu1">1</li>
-            <a href = "#"><li class="menu">2</li></a>
-            <a href = "#"><li class="menu">3</li></a>
+            <RouterLink to="/page2"><a href = "#"><li class="menu">2</li></a></RouterLink>
+            <RouterLink to="/page3"><a href = "#"><li class="menu">3</li></a></RouterLink>
             <a href = "#"><li class="menu">4</li></a>
             <a href = "#"><li class="menu">5</li></a>
             <a href = "#"><li class="menu">6</li></a>
@@ -626,5 +626,25 @@ a{
 .menu-item:hover {
   background-color: #000000;
   color: #6c6767; /* Changer la couleur au survol si nécessaire */
+}
+/* Styles spécifiques au composant */
+
+.haut {
+  text-decoration: none; /* Supprimer le soulignement du lien */
+}
+
+.haut {
+  list-style: none; /* Supprimer les puces de la liste */
+  display: inline-block;
+  margin-right: 15px; /* Espacement entre les éléments de la liste */
+  padding: 10px; /* Ajouter un espace autour du texte */
+  background-color: #000000; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+.haut:hover {
+  background-color: #6c6767; /* Changement de couleur au survol */
 }
 </style>
