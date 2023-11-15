@@ -1,3 +1,4 @@
+
 <template>
 <div class="mx-auto flex w-full max-w-sm flex-col gap-6">
 	<div class="flex flex-col items-center">
@@ -46,6 +47,14 @@
 </template>
 
 <style scoped>
+@font-face {
+  font-family: "roboto";
+  src: url("font/Roboto.eot"), url("font/Roboto.woff2") format("woff2"),
+    url("font/Roboto.woff") url("font/Roboto.svg") format("svg"),
+    url("font/Roboto.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;

@@ -7,6 +7,7 @@
             <ul class="container">
                 <ul class="test">
                     <img class="logo" src="../image/logo.png" alt="logo">
+                    <menuBarre/>
                     <id class="police2">
                         <li>HOME </li>
                     </id>
@@ -29,7 +30,7 @@
                 <ul class="test2">
                     <img class="cadie" src="../image/cadis.png" alt="logo">
                     <id class="police2">
-                        <li>LOGIN</li>
+                      <li class="menu-item"><RouterLink to="/login">LOGIN</RouterLink></li>
                     </id>
                 </ul>
             </ul>
@@ -266,7 +267,11 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-        export default{
+import menuBarre from './menuBarre.vue'
+    export default {
+        component : {
+      menuBarre,
+        },
           data(){
               return{
                 message : "Hello wolrd"
@@ -599,5 +604,31 @@ span {
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+.menu-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 5px;
+  font-family: 'YourFont', sans-serif; /* Remplacez 'YourFont' par le nom de la police souhaitée */
+  font-size: 16px; /* Modifiez la taille de la police selon vos besoins */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Ajoutez la transition pour une animation fluide */
+}
+
+a{
+  color: #fff;
+}
+
+.menu-item:hover {
+  background-color: #000000;
+  color: #6c6767; /* Changer la couleur au survol si nécessaire */
 }
 </style>

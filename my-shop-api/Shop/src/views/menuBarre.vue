@@ -11,6 +11,14 @@
 </nav>
 </template>
 
+<script>
+export default {
+    name: 'menuBarre',
+    components : {
+    }
+}
+</script>
+
 <style scoped>
 .menu {
   width: 240px; /* Ajustez la largeur selon vos besoins */
@@ -48,4 +56,3 @@
 }
 
 </style>
-
