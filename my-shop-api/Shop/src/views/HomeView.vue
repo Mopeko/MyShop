@@ -106,9 +106,6 @@
                 <ul class="wouaf">
                     <id class="police1">
                         <li>Coombes</li>
-                        <article product in getProduct :keys="product.id">
-                          <h1>{{product.id}}</h1>
-                      </article>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
@@ -246,12 +243,12 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
+
             </div>
         </ul>
     </main>
     <footer>
         <ul class="footer_menu">
-
             <li class="menu1">1</li>
             <a href = "#"><li class="menu">2</li></a>
             <a href = "#"><li class="menu">3</li></a>
@@ -269,14 +266,22 @@
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
-        export default{
-          data(){
-              return{
-                message : "Hello wolrd"
-              };
-          },
-        };
+import { mapActions, mapState} from 'pinia'
+import {useShopdatabase} from "../stores/counter.js"
+export default{
+  data() {
+    return{
+      productList:[]
+    };
+  },
+  mounted(){
+    this.fetchProducts;
+  },
+  computed:{
+    ...mapActions(useShopdatabase, ["fetchProducts"]),
+    ...mapState(useShopdatabase, ["getProduct","getStatus"]),
+  },
+}
 </script>
 
 <style scoped>
