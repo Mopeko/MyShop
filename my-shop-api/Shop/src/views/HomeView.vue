@@ -22,6 +22,9 @@
   <ul class="wouaf">
                     <id class="police1">
                         <li>Coombes</li>
+                        <article product in getProduct :keys="product.id">
+                          <h1>{{product.id}}</h1>
+                      </article>
                     </id>
                         <li>$2,600</li>
                 </ul>
@@ -39,13 +42,22 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-        export default{
-          data(){
-              return{
-                message : "Hello wolrd"
-              };
-          },
-        };
+import { mapActions, mapState} from 'pinia'
+import {useShopdatabase} from "../stores/counter.js"
+export default{
+  state: () =>{
+    return{
+      productList:[]
+    };
+  },
+  mounted(){
+    this.fetchProducts;
+  },
+  computed:{
+    ...mapActions(useShopdatabase, ["fetchProducts"]),
+    ...mapState(useShopdatabase, ["getProduct", ]),
+  },
+}
 </script>
 
 <style scoped>
