@@ -106,9 +106,6 @@
                 <ul class="wouaf">
                     <id class="police1">
                         <li>Coombes</li>
-                        <article product in getProduct :keys="product.id">
-                          <h1>{{product.id}}</h1>
-                      </article>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
