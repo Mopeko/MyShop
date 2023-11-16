@@ -102,10 +102,10 @@
                 </id>
                 </class>
             <div class="div2">
-                <img class="image" src="../image/salon.png" alt="salon">
+              <RouterLink to ='/pageAchat'><img class="image" src="../image/salon.png" alt="salon"></RouterLink>
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Coombes</li>
+                      <RouterLink to ='/pageAchat'><li>Coombes</li></RouterLink>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
