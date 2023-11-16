@@ -264,10 +264,6 @@
     </footer>
 </body>
 </template>
-
-<script>
-</script>
-
 <style scoped>
 @font-face {
   font-family: "roboto";

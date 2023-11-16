@@ -5,6 +5,8 @@ import page2 from '../views/page2.vue'
 import page3 from '../views/page3.vue'
 import profil from '../views/profil.vue'
 import pageAchat from '../views/pageAchat.vue'
+import test from '../views/test.vue'
+import register from '../views/register.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +45,16 @@ const router = createRouter({
       path : '/pageAchat',
       name : 'pageAchat',
       component : pageAchat
+      },
+      {
+      path: '/test',
+      name: 'test',
+      component: test
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: register
     }
   ]
 })
