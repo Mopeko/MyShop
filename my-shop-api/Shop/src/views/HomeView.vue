@@ -243,12 +243,12 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
+
             </div>
         </ul>
     </main>
     <footer>
         <ul class="footer_menu">
-
             <li class="menu1">1</li>
             <RouterLink to="/page2"><a href = "#"><li class="menu">2</li></a></RouterLink>
             <RouterLink to="/page3"><a href = "#"><li class="menu">3</li></a></RouterLink>
@@ -266,14 +266,6 @@
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
-        export default{
-          data(){
-              return{
-                message : "Hello wolrd"
-              };
-          },
-        };
 </script>
 
 <style scoped>
