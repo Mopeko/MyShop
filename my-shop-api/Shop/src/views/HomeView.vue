@@ -12,7 +12,7 @@
                       <li class =haut>HOME </li>
                     </id>
                     <id class="police2">
-                      <li class =haut>SETTINGS </li>
+                      <RouterLink to='/adminpanel'><li class =haut>ADMIN </li></RouterLink>
                     </id>
                     <id class="police2">
                         <RouterLink to ='/profil'><li class =haut>PROFIL </li></RouterLink>

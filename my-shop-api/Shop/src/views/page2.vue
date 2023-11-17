@@ -613,9 +613,9 @@
     color: #fff;
     background-color: #000000;
     border-radius: 5px;
-    font-family: 'YourFont', sans-serif; /* Remplacez 'YourFont' par le nom de la police souhaitée */
-    font-size: 16px; /* Modifiez la taille de la police selon vos besoins */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Ajoutez la transition pour une animation fluide */
+    font-family: 'YourFont', sans-serif; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
   }
   
   a{
@@ -624,6 +624,6 @@
   
   .menu-item:hover {
     background-color: #000000;
-    color: #6c6767; /* Changer la couleur au survol si nécessaire */
+    color: #6c6767; 
   }
   </style>
