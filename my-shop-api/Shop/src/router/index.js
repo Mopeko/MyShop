@@ -25,6 +25,31 @@ const router = createRouter({
       path: '/adminpanel',
       name: 'adminpanel',
       component: adminpanel
+    },
+    {
+      path: '/page2',
+      name: 'page2',
+      component: page2
+    },
+    {
+      path: '/page3',
+      name: 'page3',
+      component: page3
+    },
+    {
+      path: '/profil',
+      name: 'profil',
+      component: profil
+    },
+    {
+      path : '/pageAchat',
+      name : 'pageAchat',
+      component : pageAchat
+      },
+      {
+      path: '/test',
+      name: 'test',
+      component: test
     }
   ]
 })

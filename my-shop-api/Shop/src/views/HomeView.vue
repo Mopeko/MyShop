@@ -9,13 +9,13 @@
                     <img class="logo" src="../image/logo.png" alt="logo">
                     <menuBarre/>
                     <id class="police2">
-                        <li>HOME </li>
+                      <li class =haut>HOME </li>
                     </id>
                     <id class="police2">
-                        <li>SHOP </li>
+                      <li class =haut>SETTINGS </li>
                     </id>
                     <id class="police2">
-                        <li>MAGAZINE </li>
+                        <RouterLink to ='/profil'><li class =haut>PROFIL </li></RouterLink>
                     </id>
                 </ul>
                 <div id="mySidenav" class="sidenav">
@@ -102,10 +102,10 @@
                 </id>
                 </class>
             <div class="div2">
-                <img class="image" src="../image/salon.png" alt="salon">
+              <RouterLink to ='/pageAchat'><img class="image" src="../image/salon.png" alt="salon"></RouterLink>
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Coombes</li>
+                      <RouterLink to ='/pageAchat'><li>Coombes</li></RouterLink>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
@@ -250,8 +250,8 @@
     <footer>
         <ul class="footer_menu">
             <li class="menu1">1</li>
-            <a href = "#"><li class="menu">2</li></a>
-            <a href = "#"><li class="menu">3</li></a>
+            <RouterLink to="/page2"><a href = "#"><li class="menu">2</li></a></RouterLink>
+            <RouterLink to="/page3"><a href = "#"><li class="menu">3</li></a></RouterLink>
             <a href = "#"><li class="menu">4</li></a>
             <a href = "#"><li class="menu">5</li></a>
             <a href = "#"><li class="menu">6</li></a>
@@ -260,7 +260,7 @@
             <a href = "#"><li class="menu">9</li></a>
             <a href = "#"><li class="menu">10</li></a>
             <a href = "#"><li class="menu">></li></a>
-        </ul> 
+        </ul>
     </footer>
 </body>
 </template>
@@ -406,9 +406,6 @@ ul {
   position: relative;
 }
 
-/* footer{
-    margin-bottom: 90%;
-} */
 
 form {
   display: flex;
@@ -555,7 +552,6 @@ span {
   margin: 0;
 }
 
-/* Sidenav menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -574,7 +570,7 @@ span {
   left: 0;
 }
 
-/* Close btn */
+
 .sidenav .close {
   position: absolute;
   top: 0;
@@ -602,9 +598,9 @@ span {
   color: #fff;
   background-color: #000000;
   border-radius: 5px;
-  font-family: 'YourFont', sans-serif; /* Remplacez 'YourFont' par le nom de la police souhaitée */
-  font-size: 16px; /* Modifiez la taille de la police selon vos besoins */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Ajoutez la transition pour une animation fluide */
+  font-family: 'YourFont', sans-serif; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 a{
@@ -613,6 +609,26 @@ a{
 
 .menu-item:hover {
   background-color: #000000;
-  color: #6c6767; /* Changer la couleur au survol si nécessaire */
+  color: #6c6767; 
+}
+
+
+.haut {
+  text-decoration: none; 
+}
+
+.haut {
+  list-style: none; 
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px; 
+  background-color: #000000; 
+  color: #fff; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.haut:hover {
+  background-color: #6c6767; 
 }
 </style>

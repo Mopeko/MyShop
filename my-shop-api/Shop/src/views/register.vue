@@ -1,9 +1,8 @@
-
 <template>
 <div class="mx-auto flex w-full max-w-sm flex-col gap-6">
 	<div class="flex flex-col items-center">
-		<h1 class="text-3xl font-semibold">Sign In</h1>
-		<p class="text-sm">Sign in to access your account</p>
+		<h1 class="text-3xl font-semibold">Register</h1>
+		<p class="text-sm">Register to create a new account</p>
 	</div>
 	<div class="form-group">
 		<div class="form-field">
@@ -26,7 +25,7 @@
 		</div>
 		<div class="form-field pt-5">
 			<div class="form-control justify-between">
-				<button type="button" class="btn btn-primary w-full">Sign in</button>
+				<button type="button" class="btn btn-primary w-full">Register</button>
 			</div>
 		</div>
 
@@ -36,7 +35,24 @@
 </div>
 </template>
 <script>
-
+import axios from "axios";
+export default {
+  name: "post-request-set-headers",
+  data() {
+    return {
+      articleId: null
+    };
+  },
+  created() {
+    const article = { title: "Vue POST Request Example" };
+    const headers = { 
+      "Authorization": "Bearer my-token",
+      "My-Custom-Header": "foobar"
+    };
+    axios.post("https://reqres.in/api/articles", article, { headers })
+      .then(response => this.articleId = response.data.id);
+  }
+};
 </script>
 <style scoped>
 @font-face{
@@ -69,7 +85,7 @@
 }
 
 .max-w-sm {
-  max-width: 24rem;
+  max-width: 24rem; 
 }
 
 .text-3xl {
@@ -84,14 +100,13 @@
   font-size: 0.875rem; 
 }
 
-
 .form-field {
   margin-bottom: 1.5rem; 
 }
 
 .form-label {
   display: block;
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.375rem; 
   font-size: 0.875rem; 
 }
 
