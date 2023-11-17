@@ -260,7 +260,7 @@
             <a href = "#"><li class="menu">9</li></a>
             <a href = "#"><li class="menu">10</li></a>
             <a href = "#"><li class="menu">></li></a>
-        </ul> 
+        </ul>
     </footer>
 </body>
 </template>
@@ -406,9 +406,6 @@ ul {
   position: relative;
 }
 
-/* footer{
-    margin-bottom: 90%;
-} */
 
 form {
   display: flex;
@@ -555,7 +552,6 @@ span {
   margin: 0;
 }
 
-/* Sidenav menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -574,7 +570,7 @@ span {
   left: 0;
 }
 
-/* Close btn */
+
 .sidenav .close {
   position: absolute;
   top: 0;
@@ -602,9 +598,9 @@ span {
   color: #fff;
   background-color: #000000;
   border-radius: 5px;
-  font-family: 'YourFont', sans-serif; /* Remplacez 'YourFont' par le nom de la police souhaitée */
-  font-size: 16px; /* Modifiez la taille de la police selon vos besoins */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Ajoutez la transition pour une animation fluide */
+  font-family: 'YourFont', sans-serif; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 a{
@@ -613,26 +609,26 @@ a{
 
 .menu-item:hover {
   background-color: #000000;
-  color: #6c6767; /* Changer la couleur au survol si nécessaire */
-}
-/* Styles spécifiques au composant */
-
-.haut {
-  text-decoration: none; /* Supprimer le soulignement du lien */
+  color: #6c6767; 
 }
 
+
 .haut {
-  list-style: none; /* Supprimer les puces de la liste */
+  text-decoration: none; 
+}
+
+.haut {
+  list-style: none; 
   display: inline-block;
-  margin-right: 15px; /* Espacement entre les éléments de la liste */
-  padding: 10px; /* Ajouter un espace autour du texte */
-  background-color: #000000; /* Couleur de fond */
-  color: #fff; /* Couleur du texte */
-  border-radius: 5px; /* Coins arrondis */
-  transition: background-color 0.3s ease; /* Animation de transition */
+  margin-right: 15px;
+  padding: 10px; 
+  background-color: #000000; 
+  color: #fff; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
 }
 
 .haut:hover {
-  background-color: #6c6767; /* Changement de couleur au survol */
+  background-color: #6c6767; 
 }
 </style>

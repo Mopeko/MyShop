@@ -61,7 +61,7 @@
 }
 
 .gap-6 {
-  gap: 1.5rem; /* Ajustez l'espacement entre ents selon vos besoins */
+  gap: 1.5rem;
 }
 
 .w-full {
@@ -69,12 +69,11 @@
 }
 
 .max-w-sm {
-  max-width: 24rem; /* Ajustez la largeur maximale selon vos besoins */
+  max-width: 24rem;
 }
 
-/* Styles pour la section "Sign In" */
 .text-3xl {
-  font-size: 1.875rem; /* Ajustez la taille de la police selon vos besoins */
+  font-size: 1.875rem; 
 }
 
 .font-semibold {
@@ -82,24 +81,22 @@
 }
 
 .text-sm {
-  font-size: 0.875rem; /* Ajustez la taille de la police selon vos besoins */
+  font-size: 0.875rem; 
 }
-
-/* Styles pour les champs du formulaire */
 
 
 .form-field {
-  margin-bottom: 1.5rem; /* Ajustez la marge entre les champs selon vos besoins */
+  margin-bottom: 1.5rem; 
 }
 
 .form-label {
   display: block;
-  margin-bottom: 0.375rem; /* Ajustez la marge sous les labels selon vos besoins */
-  font-size: 0.875rem; /* Ajustez la taille de la police selon vos besoins */
+  margin-bottom: 0.375rem;
+  font-size: 0.875rem; 
 }
 
 .form-label-alt {
-  color: #ff0000; /* Couleur pour les messages d'erreur, ajustez selon vos préférences */
+  color: #ff0000; 
 }
 
 .input {
@@ -110,24 +107,22 @@
   font-size: 0.875rem;
 }
 
-/* Styles pour les cases cocher et les liens */
 .checkbox {
   margin-right: 0.5rem;
 }
 
 .link {
-  color: #3490dc; /* Couleur du lien, ajustez selon vos rences */
+  color: #3490dc; 
 }
 
 .link-primary {
-  color: #3490dc; /* Couleur du lien primaire, ajustez selon vos pnces */
+  color: #3490dc; 
 }
 
 .link-underline-hover:hover {
   text-decoration: underline;
 }
 
-/* Styles pour le bouton "Sign in" */
 .btn {
   cursor: pointer;
   padding: 0.75rem;
@@ -137,12 +132,11 @@
 }
 
 .btn-primary {
-  background-color: #2c608b; /* Couleur du bouton, ajustez selon vos préférences */
-  color: #fff; /* Couleur du texte du bouton, ajustez selon vos préférences */
+  background-color: #2c608b; 
+  color: #fff; 
 }
 
-/* Styles pour le lien "Sign up" */
 .link-primary.text-sm {
-  font-size: 0.875rem; /* Ajustez la taille de la police selon vos besoins */
+  font-size: 0.875rem; 
 }
 </style>

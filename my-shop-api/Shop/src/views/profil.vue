@@ -1,24 +1,13 @@
 <template>
     <aside class="profile-card">
   <header>
-    <!-- here’s the avatar -->
     <a target="_blank" href="#">
       <img src="http://lorempixel.com/150/150/people/" class="hoverZoomLink">
     </a>
-
-    <!-- the username -->
-    <h1>
-            John Doe
-          </h1>
-
-    <!-- and role or location -->
-    <h2>
-            Profil
-          </h2>
-
+    <h1>John Doe</h1>
+    <h2>Profil </h2>
   </header>
 
-  <!-- bit of a bio; who are you? -->
   <div class="profile-bio">
 
     <li> Commandes passées : </li>
@@ -27,8 +16,6 @@
 <RouterLink to = "/"><button class = retour>RETOUR</button></RouterLink>
 
   </div>
-
-  <!-- some social links to show off -->
   <ul class="profile-social-links">
     <li>
       <a target="_blank" href="https://www.facebook.com/creativedonut">
