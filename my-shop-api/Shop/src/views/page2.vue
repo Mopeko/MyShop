@@ -101,18 +101,18 @@
                   </id>
                   </class>
               <div class="div2">
-                  <img class="image" src="../image/salon.png" alt="salon">
+                  <img class="image" src="../image/Un pack de tournevis de toute forme.jpeg" alt="salon">
                   <ul class="wouaf">
                       <id class="police1">
-                          <li>Coombes</li>
+                          <li>Pack tounevis</li>
                       </id>
                       <id class="police2">
-                        <li>$2,600</li>
+                        <li>$35</li>
                       </id>
                   </ul>
                     <ul class="wouaf">
                       <id class="police2">
-                        <li class="grisfin">LOUNGE</li>
+                        <li class="grisfin">Un pack de tournevis de toute forme</li>
                       </id>
                     </ul>
                       
@@ -123,118 +123,18 @@
                       <span class="fa fa-star"></span></div>
                       <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
               </div>
-              <div class="div3"><img class="image" src="../image/blanc.png" alt="">
+              <div class="div3"><img class="image" src="../image/Une meuleuse ryobi portable.jpeg" alt="">
                   <ul class="wouaf">
                       <id class="police1">
-                          <li>Keev Set</li>
+                          <li>Meuleuse ryobi</li>
                       </id>
                       <id class="police2">
-                        <li>$590</li>
+                        <li>$175</li>
                       </id>
                   </ul>
                   
                   <id class="police2">
-                      <li class="grisfin">TABLE & CHAIRS</li>
-                  </id>
-                  <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star"></span></div>
-                      <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
-              </div>
-              <div class="div4"><img class="image" src="../image/chaises dehors.png" alt="">
-                  <ul class="wouaf">
-                      <id class="police1">
-                          <li>Nillè</li>
-                      </id>
-                      <id class="police2">
-                          <li>$950</li>
-                      </id>
-                  </ul>
-                  
-                  <id class="police2">
-                      <li class="grisfin">ARMCHAIR</li>
-                  </id>
-                  <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star"></span></div>
-                      <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
-              </div>
-              <div class="div5"><img class="image" src="../image/réveil.png" alt="">
-                  <ul class="wouaf">
-                      <id class="police1">
-                          <li>Blanko</li>
-                      </id>
-                      <id class="police2">
-                        <li>$90</li>
-                      </id>
-                  </ul>
-                  
-                  <id class="police2">
-                      <li class="grisfin">SIDE TABLE</li>
-                  </id>
-                  <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star"></span></div>
-                      <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
-              </div>
-              <div class="div6"><img class="image" src="../image/bibli.png" alt="">
-                  <ul class="wouaf">
-                      <id class="police1">
-                          <li>Momo</li>
-                      </id>
-                      <id class="police2">
-                          <li>$890</li>
-                      </id>
-                  </ul>
-                  
-                  <id class="police2">
-                      <li class="grisfin">SHELVES</li>
-                  </id>
-                  <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star"></span></div>
-                      <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
-              </div>
-              <div class="div7"><img class="image" src="../image/chaise.png" alt="">
-                  <ul class="wouaf">
-                      <id class="police1">
-                          <li>Penemillè</li>
-                      </id>
-                      <id class="police2">
-                          <li>$120</li>
-                      </id>
-                  </ul>
-                  
-                  <id class="police2">
-                      <li class="grisfin">CHAIR</li>
-                  </id>
-                  <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star"></span></div>
-                      <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
-              </div>
-              <div class="div8"><img class="image" src="../image/bizarre.png" alt="bizarre">
-                  <ul class="wouaf">
-                      <id class="police1">
-                          <li>Kappu</li>
-                      </id>
-                      <id class="police2">
-                          <li>$420</li>
-                      </id>
-                  </ul>
-                  
-                  <id class="police2">
-                      <li class="grisfin">SHELVES</li>
+                      <li class="grisfin">Une meuleuse ryobi portable</li>
                   </id>
                   <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                       <span class="fa fa-star checked"></span>
@@ -250,14 +150,6 @@
   
             <RouterLink to="/"><li class="menu1">1</li></RouterLink>
               <a href = "#"><li class="menu">2</li></a>
-              <RouterLink to="/page3"><a href = "#"><li class="menu">3</li></a></RouterLink>
-              <a href = "#"><li class="menu">4</li></a>
-              <a href = "#"><li class="menu">5</li></a>
-              <a href = "#"><li class="menu">6</li></a>
-              <a href = "#"><li class="menu">7</li></a>
-              <a href = "#"><li class="menu">8</li></a>
-              <a href = "#"><li class="menu">9</li></a>
-              <a href = "#"><li class="menu">10</li></a>
               <a href = "#"><li class="menu">></li></a>
           </ul> 
       </footer>
@@ -523,7 +415,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 30%;
+    margin-right: 50%;
     padding-left: 3%;
   }
   

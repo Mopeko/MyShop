@@ -1,6 +1,6 @@
 
-<template>
 
+<template>
   <body>
     <header>
         <nav>
@@ -102,10 +102,10 @@
                 </id>
                 </class>
             <div class="div2">
-              <RouterLink to ='/pageAchat'><img class="image" src="../image/salon.png" alt="salon"></RouterLink>
+              <RouterLink to ='/pageAchat'><img class="image" src="../image/tabouretluxe.jpeg" alt="salon"></RouterLink>
                 <ul class="wouaf">
                     <id class="police1">
-                      <RouterLink to ='/pageAchat'><li>Coombes</li></RouterLink>
+                      <RouterLink to ='/pageAchat'><li class="tabouret">Glebeskefe</li></RouterLink>
                     </id>
                     <id class="police2">
                       <li>$2,600</li>
@@ -113,7 +113,7 @@
                 </ul>
                   <ul class="wouaf">
                     <id class="police2">
-                      <li class="grisfin">LOUNGE</li>
+                      <li class="grisfin">Tabouret de qualité</li>
                     </id>
                   </ul>
                     
@@ -124,10 +124,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div3"><img class="image" src="../image/blanc.png" alt="">
+            <div class="div3"><img class="image" src="../image/tabouret medium.jpeg" alt="">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Keev Set</li>
+                        <li>Tabora</li>
                     </id>
                     <id class="police2">
                       <li>$590</li>
@@ -135,7 +135,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">TABLE & CHAIRS</li>
+                    <li class="grisfin">Tabouret medium</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -144,10 +144,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div4"><img class="image" src="../image/chaises dehors.png" alt="">
+            <div class="div4"><img class="image" src="../image/tabouretpied.jpeg" alt="">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Nillè</li>
+                        <li>Kakouna</li>
                     </id>
                     <id class="police2">
                         <li>$950</li>
@@ -155,7 +155,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">ARMCHAIR</li>
+                    <li class="grisfin">Tabouret de bas de gamme</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -164,10 +164,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div5"><img class="image" src="../image/réveil.png" alt="">
+            <div class="div5"><img class="image" src="../image/packdevis.jpeg" alt="">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Blanko</li>
+                        <li>Natoti</li>
                     </id>
                     <id class="police2">
                       <li>$90</li>
@@ -175,7 +175,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">SIDE TABLE</li>
+                    <li class="grisfin">Pack de vis</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -184,10 +184,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div6"><img class="image" src="../image/bibli.png" alt="">
+            <div class="div6"><img class="image" src="../image/chevilleplatre.jpeg" alt="">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Momo</li>
+                        <li>Chevomaxi</li>
                     </id>
                     <id class="police2">
                         <li>$890</li>
@@ -195,7 +195,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">SHELVES</li>
+                    <li class="grisfin">Cheville platre</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -204,10 +204,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div7"><img class="image" src="../image/chaise.png" alt="">
+            <div class="div7"><img class="image" src="../image/patinantiderapant.jpeg" alt="">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Penemillè</li>
+                        <li>Shtemeül</li>
                     </id>
                     <id class="police2">
                         <li>$120</li>
@@ -215,7 +215,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">CHAIR</li>
+                    <li class="grisfin">Patin antidérapant</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -224,10 +224,10 @@
                     <span class="fa fa-star"></span></div>
                     <img class="panier" src="../image/panier.png" alt="ajout au panier"></id>
             </div>
-            <div class="div8"><img class="image" src="../image/bizarre.png" alt="bizarre">
+            <div class="div8"><img class="image" src="../image/PerceuseBosh.jpeg" alt="bizarre">
                 <ul class="wouaf">
                     <id class="police1">
-                        <li>Kappu</li>
+                        <li>Bosh-400</li>
                     </id>
                     <id class="police2">
                         <li>$420</li>
@@ -235,7 +235,7 @@
                 </ul>
                 
                 <id class="police2">
-                    <li class="grisfin">SHELVES</li>
+                    <li class="grisfin">Perceuse Bosh</li>
                 </id>
                 <id class="panetoile"><div class="etoileu"><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -251,14 +251,6 @@
         <ul class="footer_menu">
             <li class="menu1">1</li>
             <RouterLink to="/page2"><a href = "#"><li class="menu">2</li></a></RouterLink>
-            <RouterLink to="/page3"><a href = "#"><li class="menu">3</li></a></RouterLink>
-            <a href = "#"><li class="menu">4</li></a>
-            <a href = "#"><li class="menu">5</li></a>
-            <a href = "#"><li class="menu">6</li></a>
-            <a href = "#"><li class="menu">7</li></a>
-            <a href = "#"><li class="menu">8</li></a>
-            <a href = "#"><li class="menu">9</li></a>
-            <a href = "#"><li class="menu">10</li></a>
             <a href = "#"><li class="menu">></li></a>
         </ul>
     </footer>
@@ -630,5 +622,9 @@ a{
 
 .haut:hover {
   background-color: #6c6767; 
+}
+
+.tabouret {
+  color: #000000;
 }
 </style>

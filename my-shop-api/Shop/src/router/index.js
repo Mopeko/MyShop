@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import login from '../views/login.vue'
 import adminpanel from '../views/adminpanel.vue'
 import page2 from '../views/page2.vue'
-import page3 from '../views/page3.vue'
 import profil from '../views/profil.vue'
 //import pageAchat from '..views/pageAchat.vue'
 
@@ -34,11 +33,6 @@ const router = createRouter({
       path: '/page2',
       name: 'page2',
       component: page2
-    },
-    {
-      path: '/page3',
-      name: 'page3',
-      component: page3
     },
     {
       path: '/profil',
