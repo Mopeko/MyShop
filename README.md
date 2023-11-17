@@ -10,3 +10,5 @@ Execute npm run dev into the Your Shop folder into the same terminal
 There is a route that you can access with {your npm run dev localhost into the terminal} /adminpanel
 reload the page after every execution
 
+In the variable token put your token in adminpanel.vue.
+

@@ -42,7 +42,7 @@ export default {
   methods: {
     
     deleteProduct(id) {
-      const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MDAyMzU0MTAsImV4cCI6MTcwMDIzOTAxMCwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6Im1heGltZS5icmF1bHRAZXBpdGVjaC5kaWdpdGFsIn0.OqUjzBS5dZx6rcK8LQiNfPzLrG1n3C0unLXtsP-ZWYAZO8wUg5kqvTEmjkp7gPMAnC5bEGcJcozZ-Bg6bQyMEo439qvvlxE3CUwVs8Q0tWqiu87mrh9p_udmfY9vNuwxCp_xWpBA2AiqxDIef5ebNx4hQ1Dn4CoKmY7BvXEBEEnmvcUAK7Q78rZYD0uhrLDhZJnNJee-0oToW9eMJKD1uYtFqc3wdtt6R_GpYQgGzZgAx0k0w6pu5PAIB8ZwZfPFaf9o2oOMgwi-AZChlcKUu8We7dd9v2qp3Fb07W7DIuML4x1O__brx9NWQxC7JkPPXhLs3CZpX8gN6fHlVuXpAA'
+      const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MDAyNTI2NDQsImV4cCI6MTcwMDI1NjI0NCwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6Im1heGltZS5icmF1bHRAZXBpdGVjaC5kaWdpdGFsIn0.NyTrlpzmDPPJSDZ_HPdq_oRbK3e9txXKJRa_2DRMzQd2UMZ5DJNFMpbUOUyIfPAHNqOZouIu2VsdLu-o_FGbWTrL6uqg7DtXDylPx6tM8oU8G5UUZLJeCxGrPf5-ZcypiD2QcJtgdAT_UUycEe5Lkpnb0igUM3XWcXvYMgT77hdz8a_t_NRVb1YYJnzWXH7svNccmuz_9svkSWXkR1c_aEiT08i0z7NF89L4oGPV3-O0eVotMrCyISaeYHOU9hG4sCsy3cprkQ3a9ZjPyqK1BzFvRhlje32r-qp_elNGvhqMt0zZyQeSkebjfl5bg32hbZ189IiFihlU3NJuqF7RXQ'
       const requestOptions = {
     method: 'DELETE',
     headers: { 
@@ -57,7 +57,7 @@ export default {
       const Description = document.getElementById("description").value;
       const Price = parseFloat(document.getElementById("price").value);
       const Categories = document.getElementById("categories").value.split(',').map(categories => categories.trim());
-      const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MDAyMzU0MTAsImV4cCI6MTcwMDIzOTAxMCwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6Im1heGltZS5icmF1bHRAZXBpdGVjaC5kaWdpdGFsIn0.OqUjzBS5dZx6rcK8LQiNfPzLrG1n3C0unLXtsP-ZWYAZO8wUg5kqvTEmjkp7gPMAnC5bEGcJcozZ-Bg6bQyMEo439qvvlxE3CUwVs8Q0tWqiu87mrh9p_udmfY9vNuwxCp_xWpBA2AiqxDIef5ebNx4hQ1Dn4CoKmY7BvXEBEEnmvcUAK7Q78rZYD0uhrLDhZJnNJee-0oToW9eMJKD1uYtFqc3wdtt6R_GpYQgGzZgAx0k0w6pu5PAIB8ZwZfPFaf9o2oOMgwi-AZChlcKUu8We7dd9v2qp3Fb07W7DIuML4x1O__brx9NWQxC7JkPPXhLs3CZpX8gN6fHlVuXpAA'
+      const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MDAyNTI2NDQsImV4cCI6MTcwMDI1NjI0NCwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6Im1heGltZS5icmF1bHRAZXBpdGVjaC5kaWdpdGFsIn0.NyTrlpzmDPPJSDZ_HPdq_oRbK3e9txXKJRa_2DRMzQd2UMZ5DJNFMpbUOUyIfPAHNqOZouIu2VsdLu-o_FGbWTrL6uqg7DtXDylPx6tM8oU8G5UUZLJeCxGrPf5-ZcypiD2QcJtgdAT_UUycEe5Lkpnb0igUM3XWcXvYMgT77hdz8a_t_NRVb1YYJnzWXH7svNccmuz_9svkSWXkR1c_aEiT08i0z7NF89L4oGPV3-O0eVotMrCyISaeYHOU9hG4sCsy3cprkQ3a9ZjPyqK1BzFvRhlje32r-qp_elNGvhqMt0zZyQeSkebjfl5bg32hbZ189IiFihlU3NJuqF7RXQ'
       axios.post('http://localhost/api/products', {
         name: Name,
         description: Description,
