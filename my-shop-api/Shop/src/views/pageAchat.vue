@@ -1,6 +1,4 @@
 <template>
-
-=======
   <body>
     <header>
         <nav>
@@ -462,4 +460,3 @@ a{
   background-color: #6c6767; /* Changement de couleur au survol */
 }
 </style>
->>>>>>> 9cd019729ca308102fc5a356554ee9b9da06d387
