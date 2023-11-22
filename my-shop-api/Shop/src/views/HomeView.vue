@@ -108,7 +108,7 @@
                       <RouterLink to ='/pageAchat'><li class="tabouret">Glebeskefe</li></RouterLink>
                     </id>
                     <id class="police2">
-                      <li>$2,600</li>
+                      <li>45€</li>
                     </id>
                 </ul>
                   <ul class="wouaf">
@@ -130,7 +130,7 @@
                         <li>Tabora</li>
                     </id>
                     <id class="police2">
-                      <li>$590</li>
+                      <li>30€</li>
                     </id>
                 </ul>
                 
@@ -150,7 +150,7 @@
                         <li>Kakouna</li>
                     </id>
                     <id class="police2">
-                        <li>$950</li>
+                        <li>15€</li>
                     </id>
                 </ul>
                 
@@ -170,7 +170,7 @@
                         <li>Natoti</li>
                     </id>
                     <id class="police2">
-                      <li>$90</li>
+                      <li>7€</li>
                     </id>
                 </ul>
                 
@@ -190,7 +190,7 @@
                         <li>Chevomaxi</li>
                     </id>
                     <id class="police2">
-                        <li>$890</li>
+                        <li>5€</li>
                     </id>
                 </ul>
                 
@@ -210,7 +210,7 @@
                         <li>Shtemeül</li>
                     </id>
                     <id class="police2">
-                        <li>$120</li>
+                        <li>5€</li>
                     </id>
                 </ul>
                 
@@ -230,7 +230,7 @@
                         <li>Bosh-400</li>
                     </id>
                     <id class="police2">
-                        <li>$420</li>
+                        <li>150€</li>
                     </id>
                 </ul>
                 
